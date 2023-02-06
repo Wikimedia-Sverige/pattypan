@@ -2,6 +2,8 @@ name: Make self-contained Windows EXE
 
 on:
   workflow_dispatch
+  push:
+    branches: [ "exe-instructions" ]
 
 jobs:
   build:
